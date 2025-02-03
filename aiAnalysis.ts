@@ -8,7 +8,7 @@ export async function generateDataInsights(
   try {
     const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
     
-    if (!apiKey || apiKey === 'your-api-key-here') {
+    if (!apiKey || apiKey === 'AIzaSyDkELHJ67HZ0GO3slyY7Mrms2NvwV4fHIE') {
       return getDemoInsights(summary, sampleData);
     }
 
